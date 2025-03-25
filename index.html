@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <!-- Iconos Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Header y Navegación -->
     <header class="header">
@@ -30,20 +32,68 @@
 
     <!-- Sección Hero -->
     <section class="hero" id="home">
-    <div class="video-container">
-        <video autoplay muted loop playsinline>
-            <source src="assents/videos/flexiones.mp4" type="video/mp4">
-            <!-- Fallback para navegadores antiguos -->
-            <img src="img/hero-fallback.jpg" alt="Entrenamiento de fuerza">
-        </video>
-        <div class="video-overlay"></div>
-    </div>
-    
-    <div class="hero-content">
-        <h1>Transforma tu físico con entrenamiento funcional</h1>
-        <p>Clases grupales | Entrenadores certificados | Resultados garantizados</p>
-        <a href="#registro" class="cta-button">¡Iniciar prueba gratis!</a>
-    </div>
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source src="assents/videos/flexiones.mp4" type="video/mp4">
+                <!-- Fallback para navegadores antiguos -->
+                <img src="img/hero-fallback.jpg" alt="Entrenamiento de fuerza">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1>Transforma tu físico con entrenamiento funcional</h1>
+            <p>Clases grupales | Entrenadores certificados | Resultados garantizados</p>
+            <a href="#registro" class="cta-button">¡Iniciar prueba gratis!</a>
+        </div>
+    </section>
+
+    <!-- Sección de Videos de Actividades -->
+    <section class="activities" id="activities">
+        <h2>Actividades en Janos Gym</h2>
+        <div class="video-gallery">
+            <div class="video-item">
+                <video controls>
+                    <source src="assents/videos/cardio.mp4" type="video/mp4">
+                </video>
+                <p>Entrenamiento de Cardio</p>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="assents/videos/pesas.mp4" type="video/mp4">
+                </video>
+                <p>Levantamiento de Pesas</p>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="assents/videos/yoga.mp4" type="video/mp4">
+                </video>
+                <p>Clases de Yoga</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section class="testimonials" id="testimonials">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Desde que entreno en Janos Gym, mi energía ha mejorado y he logrado mis objetivos de fitness."</p>
+                <strong>- Carlos G.</strong>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p>"Los entrenadores están altamente calificados y el ambiente es increíble. ¡Muy recomendado!"</p>
+                <strong>- Ana R.</strong>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p>"Janos Gym es el mejor gimnasio al que he asistido, con rutinas efectivas y motivación constante."
+                </p>
+                <strong>- Luis M.</strong>
+                <div class="rating">★★★★★</div>
+            </div>
+        </div>
     </section>
 
     <!-- Sección Servicios -->
@@ -119,4 +169,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
